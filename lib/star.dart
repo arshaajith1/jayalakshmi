@@ -19,17 +19,29 @@ class Screen extends StatelessWidget {
               ),
           Text("SWEET CAT"),
                 Container(
-    height: 50.0,
-
+    height: 30.0,
     color: Colors.yellow,
     child:Row(
     children: [
       Icon(Icons.call),
     Text('12345678'),
+    ],
+      ),
+
+    ),
+          Container(
+            height: 30.0,
+            color: Colors.white,
+            child:Row(
+              children: [
+                Icon(Icons.mail),
+                Text('abc@gmail.com'),
 
     ],
       ),
     ),
+    ],
+      ),
     ],
       ),
     );
