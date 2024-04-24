@@ -3,7 +3,11 @@ import 'package:jayalakshmi/star.dart';
 void main() {
   runApp(
     MaterialApp(
-     home: Screen()
+     home: Screen(),
+
+
+
+
 
 
     ),
