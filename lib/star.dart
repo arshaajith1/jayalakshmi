@@ -21,6 +21,7 @@ import 'moon.dart';
 class Screen extends StatelessWidget {
   Screen({super.key});
 
+
   final nameController = TextEditingController();
   final emailController = TextEditingController();
   final passwordController = TextEditingController();
@@ -104,7 +105,7 @@ class Screen extends StatelessWidget {
                       print(passwordController.text);
                       Navigator.push(
                           context,
-                         MaterialPageRoute(builder: (context) => const Screen2()));
+                         MaterialPageRoute(builder: (context) => Screen2(name:nameController.text ,email: emailController.text,password: passwordController.text,)));
                     },
                     icon: Icon(
                       Icons.arrow_circle_right_outlined,
