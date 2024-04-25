@@ -12,6 +12,11 @@ class Screen2 extends StatelessWidget {
     return  Scaffold(
       backgroundColor: Colors.teal,
       body: Column(
+
+
+
+
+
         children: [
           Center( child: CircleAvatar(
             radius: 50.0,
